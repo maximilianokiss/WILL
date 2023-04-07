@@ -11,10 +11,10 @@ function soloNumeros(array) {
   // soloNumeros([1, 'Henry', 2]) debe retornar [1, 2]
 
   // Tu código aca:
-
+  var arr = array.filter((e) => typeof e === 'number');
+  return arr;
 }
 
 // No modifiques nada debajo de esta linea //
-
 
 module.exports = soloNumeros

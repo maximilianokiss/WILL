@@ -15,6 +15,11 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
 
+  var aux = array.map((obj) => {
+    return obj[propiedad]
+  })
+  return aux;
+
 }
 
 // No modifiques nada debajo de esta linea //
